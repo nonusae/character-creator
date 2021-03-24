@@ -5,13 +5,11 @@
 }
 
 .maxWidthWrapper {
-  max-width: 65vw;
-  margin-left: 0;
-  margin-right: 0;
 }
 
 .header {
   padding-bottom: 64px;
+  width: 65%;
 }
 
 .title {
@@ -35,5 +33,5 @@
 }
 
 .controlColumn {
-  max-width: 50vw;
+  width: 50%;
 }
