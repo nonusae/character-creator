@@ -1,10 +1,10 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
-  isolation: isolate;
 }
 
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
@@ -35,4 +35,13 @@
 
 .controlColumn {
   width: 50%;
+}
+
+.perspectiveEffect {
+  width: 100%;
+  height: 40%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: hsl(195deg, 20%, 86%);
 }
